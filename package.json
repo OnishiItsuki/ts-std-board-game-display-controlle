@@ -1,7 +1,7 @@
 {
-  "name": "ts-std-board-controller",
+  "name": "ts-std-board-game-display-controller",
   "version": "1.0.0",
-  "description": "life game library for typescript and node",
+  "description": "Board game display controller for typescript.",
   "main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"files": [
