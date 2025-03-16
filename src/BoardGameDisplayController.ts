@@ -14,9 +14,9 @@ type CellCallback<T> = (x: number, y: number, value: T) => T;
 
 // ボードゲームを制御するクラス
 export class BoardGameDisplayController<T> {
-  private DEFAULT_CURSOR_INTERVAL: number = 500;
-  private DEFAULT_CURSOR_CHARACTER: string = 'X';
-  private DEFAULT_CURSOR_SHOW: boolean = true;
+  readonly DEFAULT_CURSOR_INTERVAL: number = 500;
+  readonly DEFAULT_CURSOR_CHARACTER: string = 'X';
+  readonly DEFAULT_CURSOR_SHOW: boolean = true;
 
   private game: BoardGame<T>;
   private rl: readline.Interface;
