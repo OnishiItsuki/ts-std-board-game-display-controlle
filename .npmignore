@@ -1,0 +1,4 @@
+*
+!dist
+!.npmignore
+!package.json
